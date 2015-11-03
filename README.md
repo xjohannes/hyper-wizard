@@ -1,7 +1,9 @@
 Hyper wizard
 =====
 
-The Hyper wizard is a project that aims to deliver an abstraction of the Hyper browser user interface. It will serve as the foundation for my master thesis at the "Biomedic informatics group" at the Institue for informatics - University of Oslo.
+The Hyper wizard is a project that aims to deliver an abstraction of the Hyper browser user interface. 
+
+It has served as a pre-project for my master thesis at the "Biomedic informatics group" at the Institue for informatics - University of Oslo.
 
 The following is the description of the project:
 
