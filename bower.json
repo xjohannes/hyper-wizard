@@ -1,0 +1,27 @@
+{
+  "name": "Wizard",
+  "description": "A redesign of a tool in the Genomic Hyper-browser",
+  "version": "0.0.1",
+  "homepage": "https://insilico.hpc.uio.no/projects/bioinfoprojects/svn_repository/new_hb/branches/wizard",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "json3": "~3.3.1",
+    "es5-shim": "~3.1.0",
+    "bootstrap-sass-official": "~3.2.0",
+    "angular": "1.2.x",
+    "angular-resource": "~1.2.0",
+    "angular-cookies": "~1.2.0",
+    "angular-sanitize": "~1.2.0",
+    "angular-animate": "~1.2.0",
+    "angular-touch": "~1.2.0",
+    "angular-route": "~1.2.0",
+    "angular-scenario": "~1.2.0",
+    "jquery": "1.10.2",
+    "bootstrap": "~3.1.1"
+  },
+  "devDependencies": {
+    "angular-mocks": "~1.2.x"
+  },
+ "appPath": "wizardApp"
+}

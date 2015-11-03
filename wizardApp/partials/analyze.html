@@ -1,0 +1,23 @@
+
+<div ng-controller="AnalyzeCtrl" class="container">
+  <div class="row">
+    <div class="col-md-10">
+        <!--Body content-->
+      <h4>Analyze hey:</h4>
+      <hr/>
+      <!--
+      <ul>
+          <li ng-repeat="value in subTracks" >
+            <a ui-sref="subTracks({genome: sharedTrackProperties.genome, track:value[1]})">{{value[0]}}</a>
+          </li>
+        </ul>
+       -->
+      <ul>
+          <li ng-repeat="value in subTracks" >
+            <a ng-model="test" ui-sref="subTracks({genome: sharedTrackProperties.genome, track:sharedTrackProperties.trackPart+value[1], trackNr:sharedTrackProperties.iteration})">{{value[0]}}</a>
+          </li>
+        </ul>
+     
+    </div>
+  </div>        
+</div>

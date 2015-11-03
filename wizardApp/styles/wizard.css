@@ -1,0 +1,43 @@
+body {
+	background-color: #fefefe;
+}
+h1 {
+	color: red;
+}
+
+header h4 {
+	background-color: red;
+	color: white;
+	padding: 5px 5px 5px 30px;
+	
+}
+header {
+	
+}
+.alwaysVisible {
+	z-index: 100;
+	color:blue;
+}
+
+.content {
+	border : 1 solid #000;
+	background-color: red;
+
+}
+
+.empty {
+	
+	color: white;
+	padding: 5px 5px 5px 80px;
+}
+.analyze {
+	background-color: green;
+	color: white;
+	padding: 5px 5px 5px 80px;
+}
+.selectingTrack {
+	
+}
+.selectedTrack {
+		
+}

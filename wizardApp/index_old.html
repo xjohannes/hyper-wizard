@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en" ng-app="Wizard">
+<head>
+  <meta charset="utf-8">
+  <title>The Galaxy Hyper-browser Wizard</title>
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+  <link rel="stylesheet" href="/styles/wizard.css">
+  
+  <!-- Third party scripts-->
+  <script src="bower_components/jquery/jquery.js"></script>
+  <script src="bower_components/angular/angular.js"></script>
+  <script src="bower_components/angular-resource/angular-resource.js"></script>
+  
+  <!-- wizard scripts-->
+  <script src="wizardApp/scripts/wizard.js"></script>
+  <script src="wizardApp/scripts/controller.js"></script>
+  <script src="wizardApp/scripts/services.js"></script>
+  
+</head>
+<body >
+  <!--
+  <div ng-controller="GenomeCtrl" class="container-fluid">
+    <div class="row">
+      <div class="col-md-2">
+        
+        <!--Sidebar content-->
+
+        Search: <input ng-model="query" ></input>
+
+        Genome Object select:
+        <select ng-model="defaultGenome" ng-options="value for (key, value) in allGenomes">
+          <option value="">    -- choose genome --</option>
+        
+        </select><br>
+
+      </div>
+
+      <div class="col-md-10">
+        
+
+        <!--Body content-->
+        <h4>Genome:</h4>
+        <div ng-repeat="genome in allGenomes | filter:query">
+          {{genome}}
+        </div>
+      </div>  
+    </div>
+  </div>
+
+
+  <div ng-controller="MainTrackCtrl" class="container-fluid">
+    <div class="row">
+      <div class="col-md-2">
+        <!--Sidebar content-->
+         MainTrack Array select:
+        <select ng-model="defaultMainTrack" ng-options="value for value in  mainTracks">  
+        </select><br>
+      </div>
+
+      <div class="col-md-10">
+        <!--Body content-->
+        <h4>Main tracks:</h4>
+        <div ng-repeat="mainTrack in mainTracks | filter:query">
+          {{mainTrack}}
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div ng-controller="SubTrackCtrl" class="container-fluid">
+    <div class="row">
+      <div class="col-md-2">
+        <!--Sidebar content-->
+        Subtrack select:
+        <select ng-model="defaultSubTrack" ng-options="value3 for value3 in subTracks">
+        </select><br>
+      </div>
+      <div class="col-md-10">
+        <!--Body content-->
+      <h4>SubTracks tracks:</h4>
+        <div ng-repeat="subTrack in subTracks[1] | filter:query">
+          {{subTrack}}
+        </div>
+      
+      </div>
+    </div>
+  </div>
+</body>
+</html>

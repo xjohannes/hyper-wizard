@@ -1,0 +1,13 @@
+<div ng-controller="GenomeCtrl" class="container">
+  <div class="row">
+    <!--Body content-->
+    <h4>Select genome:</h4>
+    <hr/>
+    <ul>
+      <li ng-repeat="(key, value) in allGenomes" ng-model="genomeNameModel" >
+        <a ui-sref="mainTrack({genome:key, genomeName:value})">{{value}}</a>
+      </li>
+    </ul>
+  </div>        
+</div>
+      

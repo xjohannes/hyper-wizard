@@ -1,0 +1,20 @@
+<div class="myTrack well">
+	
+	<h5>Track source:</h5> 
+	<p>{{sharedTrackProperties.trackSource}}</p>
+	<h5>Number of tracks to analyse:</h5> 
+	<p>{{sharedTrackProperties.nrOfTracks}}</p>
+	<h5>Selected genome name:</h5> 
+	<p>{{sharedTrackProperties.genomeName}}</p>
+	<h5>Selected genome:</h5> 
+	<p>{{sharedTrackProperties.genome}}</p>
+	<h5>First track:</h5>
+	<ul>
+          <li ng-repeat="value in sharedTrackProperties.trackParts[0] track by $index">{{value}}</li>
+    </ul>
+    <h5>Second track:</h5>
+    <ul>
+          <li ng-repeat="value in sharedTrackProperties.trackParts[1] track by $index">{{value}}</li>
+    </ul>
+
+</div>
